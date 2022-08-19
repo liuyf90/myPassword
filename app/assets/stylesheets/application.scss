@@ -31,6 +31,11 @@ body, body> p , body > ol, body > td {margin: 8px !important}
         left: 0;
         width: 192px;
     }
+
+    #counter {
+        display: block;
+        text-align: right;
+    }
 }
 #notice {
     color: #000 !important;
