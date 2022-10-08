@@ -30,4 +30,31 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+
+  layouts:
+    application:
+      title: "The Pragmatic Bookshelf"
+      home: "Home"
+      question: "Question"
+      news: "News"
+      contact: "Contact"
+
+  store:
+    index:
+      title_html: "Your Pragmatic Catalog"
+      add_html: "Add to Cart"
+
+  carts:
+    cart:
+      title: "Your Cart"
+      empty: "Empty cart"
+      checkout: "Checkout"
+
+  number:
+    currency:
+      format:
+        unit: "$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format: "%u%n"
